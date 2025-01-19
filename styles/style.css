@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.work-sans-font {
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+/* Sheard Style */
+.display-flex{
+    display: flex;
+}
+.lite-pink-bg{
+    background-color:rgba(255, 144, 14, 0.1);
+}
+.dark-1{
+    color: #131313;
+}
+.dark-2{
+    color: #424242;
+}
+.dark-3{
+    color: #727272;
+}
+.dark-4{
+    color: #A1A1A1;
+}
+.orange-color{
+    color: #FF900E;
+}
+.orange-bg{
+    background-color: #FF900E;
+}
+.btn{
+    padding: 18px 22px;
+    background-color: #FF900E;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+/* Sheard Style */
+/* navbar related style */
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.brand h3{
+    font-size: 2.3rem;
+}
+.nav-links{
+    display: flex;
+    gap:30px
+}
+
+.nav-links .nav-item{
+    list-style: none;
+}
+.nav-item .nav-link{
+    text-decoration: none;
+    color:  rgb(66, 66, 66);
+    font-size: 1.1rem;
+}
+
+.navbar , .banner{
+    max-width: 1152px;
+    margin: 0 auto;
+}
+.banner{
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.8rem;
+}
+.banner-info{
+    max-width: 690px;
+}
+.banner .banner-title{
+    font-size: 3.2rem;
+    margin-bottom: 2rem;
+}
+.banner .banner-discription{
+    font-size: .8rem;
+    margin: 0px;
+}
+.brand-img img{
+    max-width: 100%;
+    padding-bottom: 2.5rem;
+}
+
